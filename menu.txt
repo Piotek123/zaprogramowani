@@ -1,0 +1,49 @@
+HTML
+<ul>
+<li><a href="pierwszy.html">Pierwszy</a></li>
+<li><a href="drugi.html">Drugi</a></li>
+<li><a href="trzeci.html">Trzeci</a></li>
+<li><a href="czwarty.html">Czwarty</a></li>
+</ul>
+
+
+CSS
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	width: 190px;
+	padding-left: 10px;
+	background: #797 url("punkt.gif") no-repeat left top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dfe #365 #365 #dfe;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+	width: 169px;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-weight: bold;
+	background: #bfb url("tlo.gif") repeat-x top;
+	color: #365;
+	border-left: 1px solid #797;
+}
+
+ul a:hover {
+	background-color: #797;
+	background-image: url("tlo2.gif");
+	color: #eff;
+}
